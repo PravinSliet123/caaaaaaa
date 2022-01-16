@@ -309,6 +309,7 @@ input:active {
 }
 
 .about-ca-program-button {
+    text-align: center;
     margin-top: 3rem;
     /* border: 2px black; */
     border-radius: 2px;
@@ -591,10 +592,7 @@ input:active {
 
 
 
-.website_box_layer{
-    margin-bottom: 150px;
-    margin-top: 150px;
-}
+
 
 .website_box_layer_registerationblock-card_mobile-view {
     justify-content: center;
@@ -630,7 +628,7 @@ input:active {
 .website_box_layer_desktop-view {
     display: flex;
     justify-content: center;
-    background-color: black;
+    
     margin-top: 50px;
 }
 
