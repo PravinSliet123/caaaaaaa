@@ -14,7 +14,16 @@
     background-position: top,bottom;
     background-repeat: no-repeat,no-repeat;
     background-size: 100%,100%;
+   
+
 }
+@media screen and (max-width: 1315px){
+            .bgImage{
+               
+                background-image: none;
+               
+            }
+        }
 
 body {
     background-color: black;
@@ -23,6 +32,14 @@ body {
     width: 100%;
     
 }
+/* @media screen and (max-width: 424px) {
+    .AppBody {
+        
+        
+        padding-right: 200px;
+    }
+} */
+
 
 
 
@@ -196,20 +213,15 @@ input:active {
 
 /* Main Responsive Styling Start */
 
-.caMain{
-    
-    padding-top: 10px;
-    justify-content: space-around;
-}
 @media screen and (max-width: 820px) {
     .caMain{
-        margin-left: 25rem;
-        margin-top: 5rem;
+        margin-left: 20rem;
+        margin-top: 2rem;
     }
 }
 @media screen and (max-width: 479px) {
     .caMain{
-        margin-left: 31rem;
+        margin-left: 25rem;
     }
     .homePage_item{
         margin-right: 100px;
@@ -218,9 +230,9 @@ input:active {
         margin-right: -200px;
     }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 415px) {
     .caMain{
-        margin-left: 35rem;
+        margin-left: 17rem;
         margin-top: 5rem;
     }
     .homePage_item{
@@ -234,7 +246,20 @@ input:active {
     .homePage_item_heading_shadow {
         left: 71%;
     }
+    .caMain{
+        margin-left: 17rem;
+        margin-top: 5rem;
+    }
+    .website_box_layer{
+        margin-left: 25rem;
+    }
 }
+@media screen and (max-width: 541px) {
+    .website_box_layer{
+        margin-left: 1rem;
+    }
+}
+
 @media screen and (max-width: 1281px) {
     .homePage_item_heading_shadow {
         left: 70%;
